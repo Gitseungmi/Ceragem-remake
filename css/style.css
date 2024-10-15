@@ -1,0 +1,251 @@
+@charset "utf-8";
+
+
+body {
+    width: 1920px;
+    height: 100%;
+}
+
+.inner {
+    width: 1720px;
+    margin: 0 auto;
+}
+
+#header {
+    height: 7.2rem;
+}
+
+#header .inner {
+    width: 147rem;
+}
+
+#header nav {
+    width: 172rem;
+    height: 7.2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-start;
+}
+
+.logo a {
+    display: block;
+    width: 16.4rem;
+    height: 4rem;
+    background: url(../img/ceragem-logo.svg) no-repeat 0 0 / contain;
+}
+
+.gnb-product {
+    display: flex;
+}
+
+.gnb-product li a {
+    display: block;
+    padding: 3.3rem 2.4rem;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.gnb-for-user {
+    display: flex;
+}
+
+.gnb-for-user li a {
+    display: block;
+    padding: 4.6rem 3rem;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.gnb-for-user li a i {
+    font-size: 2rem;
+}
+
+.visual {
+    height: 40rem;
+    display: flex;
+}
+
+.swiper {
+    height: 40rem;
+}
+
+.swiper-slide img {
+    vertical-align: top;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.top-slider-wrap {
+    width: 100%;
+    position: relative;
+}
+
+.buisness-favors {
+    padding: 6rem 0 9rem;
+}
+
+.buisness-favors .inner {
+    width: 1470px;
+}
+
+.buisness-favors-list {
+    width: 1470px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 5.5rem;
+}
+
+.favor {
+    width: 350px;
+    height: 21rem;
+    text-align: center;
+}
+
+.favor h3 {
+    font-size: 2.2rem;
+}
+
+.favor p {
+    font-size: 1.4rem;
+    padding-top: 1.2rem;
+}
+
+.favor i {
+    font-size: 13rem;
+}
+
+.reviews {
+    padding-bottom: 145px;
+}
+
+.reviews .inner {
+    width: 1470px;
+}
+
+.review-logo {
+    font-size: 40px;
+    text-align: center;
+    padding: 0 0 30px;
+}
+
+.reviews .inner figure {
+    width: 310px;
+    height: 310px;
+}
+
+.reviews .inner figure img {
+    width: 310px;
+    height: 310px;
+}
+
+.rating {
+    width: 18rem;
+}
+
+.review-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.review-words dl {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100rem;
+}
+
+.review-words dl dt {
+    width: 310px;
+    height: 310px;
+}
+
+.review-words dl dd {
+    width: 750px;
+    height: 310px;
+}
+
+.reviews-talk {
+    padding: 4rem 0 4rem;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.user-name {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 2;
+}
+
+.user-job {
+    font-size: 18px;
+}
+
+.left-arrow,
+.right-arrow {
+    width: 30px;
+    height: 30px;
+    background: var(--white50);
+}
+
+.review-order {
+    float: right;
+}
+
+.customer-service-center .inner {
+    width: 1430px;
+    text-align: center;
+}
+
+.customer-service-center h2 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.customer-service-center h3 {
+    padding: 20px 0 0;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.customer-service-center p {
+    font-size: 18px;
+    padding: 20px 0 20px;
+}
+
+.btn-customer-service {
+    padding: 12px 56px;
+    background-color: #000;
+}
+
+.btn-customer-service p {
+    color: var(--white90);
+}
+
+.f-logo img {
+    width: 200px;
+}
+
+.f-words {
+    width: 630px;
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 14px;
+    padding: 30px 0 0;
+}
+
+.f-sns {
+    display: flex;
+    float: right;
+}
+
+.f-sns li {
+    padding: 10px;
+}

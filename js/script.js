@@ -1,0 +1,28 @@
+$(() => {
+    const topSlider = new Swiper(".top-slider", {
+        // Optional parameters
+        direction: "horizontal",
+        loop: true,
+        autoplay: true,
+        speed: 1000, //기본:300
+        effect: "slide", //slide, fade,cube, flip, coverflow
+
+        slidesPerView: 1, // 보여질 슬라이드 개수
+        spaceBetween: 20, //슬라이드 간격 20px
+        // If we need pagination
+        // pagination: {
+        //     el: ".swiper-pagination",
+        // },
+
+        // Navigation arrows
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+
+        // And if we need scrollbar
+        scrollbar: {
+            el: ".swiper-scrollbar",
+        },
+    });
+});
