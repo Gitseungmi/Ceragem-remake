@@ -1,3 +1,0 @@
-ctrl + L : 채팅창 열기
-ctrl + K : 부분 수정
-ctrl + enter : 수정 일괄 반영

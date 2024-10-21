@@ -20,6 +20,7 @@
     --black70: rgba(0, 0, 0, 0.7);
     --black80: rgba(0, 0, 0, 0.8);
     --black90: rgba(0, 0, 0, 0.9);
+    --ceragem-main-color: #D4052D;
 }
 
 .hidden {
@@ -33,6 +34,9 @@
 
 body {
     margin: 0 auto;
+    padding: 0;
+    position: relative;
+    height: 100%;
 }
 
 a {

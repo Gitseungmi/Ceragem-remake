@@ -3,27 +3,25 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Ceragem</title>
+        <title>Ceragem Biz</title>
         <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
         <link rel="stylesheet" href="css/reset.css" />
         <link rel="stylesheet" href="css/common.css" />
         <link rel="stylesheet" href="css/style.css" />
+        <link rel="shortcut icon" href="img/ico-shortcut.PNG" />
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-        <script src="js/jquery-3.7.1.min.js"></script>
-        <script src="js/script.js"></script>
     </head>
     <body>
         <header id="header">
             <div class="inner">
                 <nav>
                     <h1 class="logo">
-                        <a href="#"><i class="hidden">세라젬biz</i></a>
+                        <a href="index.html"><i class="hidden">세라젬biz</i></a>
                     </h1>
                     <ul class="gnb-product">
-                        <li><a href="#">모든제품</a></li>
-                        <li><a href="#">의료기기</a></li>
-                        <li><a href="#">휴식가전</a></li>
+                        <li><a href="all-product.html">모든제품</a></li>
+                        <li><a href="medical-device.html">의료기기</a></li>
+                        <li><a href="relaxation-device.html">휴식가전</a></li>
                         <li><a href="#">렌탈계약</a></li>
                     </ul>
                     <ul class="gnb-for-user">
@@ -34,7 +32,7 @@
                             <a href="#"><i class="ri-shake-hands-fill"></i>사업소개</a>
                         </li>
                         <li>
-                            <a href="#"><i class="ri-login-box-line"></i>로그인/회원가입</a>
+                            <a href="login.html"><i class="ri-login-box-line"></i>로그인/회원가입</a>
                         </li>
                         <li>
                             <a href="#"><i class="ri-shopping-cart-2-line"></i>장바구니</a>
@@ -56,10 +54,187 @@
                         <!-- If we need pagination -->
                         <div class="swiper-pagination"></div>
                         <!-- If we need navigation buttons -->
-                        <div class="swiper-button-prev"></div>
-                        <div class="swiper-button-next"></div>
+                        <!-- <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div> -->
                         <!-- If we need scrollbar -->
                         <!-- <div class="swiper-scrollbar"></div> -->
+                    </div>
+                </div>
+            </section>
+            <section class="product-reviews">
+                <div class="inner">
+                    <h2 class="product-reviews-logo">인기 제품</h2>
+                    <div class="second-slider-wrap">
+                        <div class="swiper second-slider">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide product-preview-slide">
+                                    <ul class="product-preview-list">
+                                        <li class="product-preview-item">
+                                            <figure>
+                                                <img src="img/product1.jpg" alt="" />
+                                            </figure>
+                                            <h3>마스터 V9 시그니처 베이지</h3>
+                                            <p class="product-price">6,600,000원</p>
+                                            <dl>
+                                                <dt>
+                                                    <div class="product-type">
+                                                        <p>의료기기</p>
+                                                    </div>
+                                                </dt>
+                                                <dd>
+                                                    <p class="evaluate">평가: <i class="ri-star-fill"></i> 4.9</p>
+                                                </dd>
+                                            </dl>
+                                        </li>
+                                        <li class="product-preview-item">
+                                            <figure>
+                                                <img src="img/product2.jpg" alt="" />
+                                            </figure>
+                                            <h3>마스터 V9 시그니처 브라운</h3>
+                                            <p class="product-price">6,600,000원</p>
+                                            <dl>
+                                                <dt>
+                                                    <div class="product-type">
+                                                        <p>의료기기</p>
+                                                    </div>
+                                                </dt>
+                                                <dd>
+                                                    <p class="evaluate">평가: <i class="ri-star-fill"></i> 4.9</p>
+                                                </dd>
+                                            </dl>
+                                        </li>
+                                        <li class="product-preview-item">
+                                            <figure>
+                                                <img src="img/product3.jpg" alt="" />
+                                            </figure>
+                                            <h3>마스터 V9 시그니처 블랙</h3>
+                                            <p class="product-price">6,600,000원</p>
+                                            <dl>
+                                                <dt>
+                                                    <div class="product-type">
+                                                        <p>의료기기</p>
+                                                    </div>
+                                                </dt>
+                                                <dd>
+                                                    <p class="evaluate">평가: <i class="ri-star-fill"></i> 4.9</p>
+                                                </dd>
+                                            </dl>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="swiper-slide product-preview-slide">
+                                    <ul class="product-preview-list">
+                                        <li class="product-preview-item">
+                                            <figure>
+                                                <img src="img/product4.jpg" alt="" />
+                                            </figure>
+                                            <h3>마스터 V6 브라운</h3>
+                                            <p class="product-price">5,100,000원</p>
+                                            <dl>
+                                                <dt>
+                                                    <div class="product-type">
+                                                        <p>의료기기</p>
+                                                    </div>
+                                                </dt>
+                                                <dd>
+                                                    <p class="evaluate">평가: <i class="ri-star-fill"></i> 4.9</p>
+                                                </dd>
+                                            </dl>
+                                        </li>
+                                        <li class="product-preview-item">
+                                            <figure>
+                                                <img src="img/product5.jpg" alt="" />
+                                            </figure>
+                                            <h3>마스터 V6 블랙</h3>
+                                            <p class="product-price">5,100,000원</p>
+                                            <dl>
+                                                <dt>
+                                                    <div class="product-type">
+                                                        <p>의료기기</p>
+                                                    </div>
+                                                </dt>
+                                                <dd>
+                                                    <p class="evaluate">평가: <i class="ri-star-fill"></i> 4.9</p>
+                                                </dd>
+                                            </dl>
+                                        </li>
+                                        <li class="product-preview-item">
+                                            <figure>
+                                                <img src="img/product6.jpg" alt="" />
+                                            </figure>
+                                            <h3>마스터 V6 화이트</h3>
+                                            <p class="product-price">5,100,000원</p>
+                                            <dl>
+                                                <dt>
+                                                    <div class="product-type">
+                                                        <p>의료기기</p>
+                                                    </div>
+                                                </dt>
+                                                <dd>
+                                                    <p class="evaluate">평가: <i class="ri-star-fill"></i> 4.9</p>
+                                                </dd>
+                                            </dl>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="swiper-slide product-preview-slide">
+                                    <ul class="product-preview-list">
+                                        <li class="product-preview-item">
+                                            <figure>
+                                                <img src="img/product7.jpg" alt="" />
+                                            </figure>
+                                            <h3>마스터 THE NEW V4 베이지</h3>
+                                            <p class="product-price">3,750,000원</p>
+                                            <dl>
+                                                <dt>
+                                                    <div class="product-type">
+                                                        <p>의료기기</p>
+                                                    </div>
+                                                </dt>
+                                                <dd>
+                                                    <p class="evaluate">평가: <i class="ri-star-fill"></i> 4.9</p>
+                                                </dd>
+                                            </dl>
+                                        </li>
+                                        <li class="product-preview-item">
+                                            <figure>
+                                                <img src="img/product8.jpg" alt="" />
+                                            </figure>
+                                            <h3>마스터 THE NEW V4 브라운</h3>
+                                            <p class="product-price">3,750,000원</p>
+                                            <dl>
+                                                <dt>
+                                                    <div class="product-type">
+                                                        <p>의료기기</p>
+                                                    </div>
+                                                </dt>
+                                                <dd>
+                                                    <p class="evaluate">평가: <i class="ri-star-fill"></i> 4.9</p>
+                                                </dd>
+                                            </dl>
+                                        </li>
+                                        <li class="product-preview-item">
+                                            <figure>
+                                                <img src="img/product9.jpg" alt="" />
+                                            </figure>
+                                            <h3>마스터 THE NEW V4 블랙</h3>
+                                            <p class="product-price">3,750,000원</p>
+                                            <dl>
+                                                <dt>
+                                                    <div class="product-type">
+                                                        <p>의료기기</p>
+                                                    </div>
+                                                </dt>
+                                                <dd>
+                                                    <p class="evaluate">평가: <i class="ri-star-fill"></i> 4.9</p>
+                                                </dd>
+                                            </dl>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -74,7 +249,7 @@
                         <li class="favor">
                             <i class="ri-checkbox-multiple-fill"></i>
                             <h3>전자 렌탈 계약</h3>
-                            <p>biz 고객님들만을 위한 편의 시스템을 제공해드립니다.</p>
+                            <p>biz 고객님들만을 위한 편의 시스템을 제공해드리겠습니다.</p>
                         </li>
                         <li class="favor">
                             <i class="ri-shopping-bag-3-fill"></i>
@@ -102,45 +277,94 @@
             <section class="reviews">
                 <div class="inner">
                     <h2 class="review-logo">Reviews</h2>
-                    <ul class="review-list">
-                        <li class="review-words">
-                            <dl>
-                                <dt>
-                                    <figure>
-                                        <img src="img/review-pic1.jpg" alt="" />
-                                    </figure>
-                                </dt>
-                                <dd>
-                                    <div class="rating">
-                                        <img src="img/Rating1.jpg" alt="" />
-                                    </div>
-                                    <p class="reviews-talk">
-                                        세라젬 biz는 우리 회사의 생산성을 크게 향상시켰습니다. 사용하기 쉬운
-                                        인터페이스와 탁월한 고객 지원 덕분에 일상 업무가 훨씬 더 효율적이 되었습니다.
-                                    </p>
-                                    <h4 class="user-name">김민정</h4>
-                                    <p class="user-job">프로젝트 매니저</p>
-                                    <div class="review-order">
-                                        <button class="left-arrow">
-                                            <i class="ri-arrow-left-s-line"></i>
-                                        </button>
-                                        <button class="right-arrow">
-                                            <i class="ri-arrow-right-s-line"></i>
-                                        </button>
-                                    </div>
-                                </dd>
-                            </dl>
-                        </li>
-                    </ul>
+                    <div class="review-slider-wrap">
+                        <div class="swiper review-slider">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <ul class="review-list">
+                                        <li class="review-words">
+                                            <dl>
+                                                <dt>
+                                                    <figure>
+                                                        <img src="img/review-pic1.jpg" alt="" />
+                                                    </figure>
+                                                </dt>
+                                                <dd>
+                                                    <div class="rating">
+                                                        <img src="img/Rating1.jpg" alt="" />
+                                                    </div>
+                                                    <p class="reviews-talk">
+                                                        세라젬 biz는 우리 회사의 생산성을 크게 향상시켰습니다. 사용하기
+                                                        쉬운 인터페이스와 탁월한 고객 지원 덕분에 일상 업무가 훨씬 더
+                                                        효율적이 되었습니다.
+                                                    </p>
+                                                    <h4 class="user-name">김*은</h4>
+                                                </dd>
+                                            </dl>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="swiper-slide">
+                                    <ul class="review-list">
+                                        <li class="review-words">
+                                            <dl>
+                                                <dt>
+                                                    <figure>
+                                                        <img src="img/review-pic2.jpg" alt="" />
+                                                    </figure>
+                                                </dt>
+                                                <dd>
+                                                    <div class="rating">
+                                                        <img src="img/Rating1.jpg" alt="" />
+                                                    </div>
+                                                    <p class="reviews-talk">
+                                                        세라젬 biz는 우리 회사의 생산성을 크게 향상시켜서 사람들이 더
+                                                        빨리 일을 할 수 있게 해줍니다. 사용하기 쉬운 인터페이스와 탁월한
+                                                        고객 지원 덕분에 일상 업무가 훨씬 더 효율적이 되었습니다.
+                                                    </p>
+                                                    <h4 class="user-name">지**병</h4>
+                                                </dd>
+                                            </dl>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="swiper-slide">
+                                    <ul class="review-list">
+                                        <li class="review-words">
+                                            <dl>
+                                                <dt>
+                                                    <figure>
+                                                        <img src="img/review-pic3.jpg" alt="" />
+                                                    </figure>
+                                                </dt>
+                                                <dd>
+                                                    <div class="rating">
+                                                        <img src="img/Rating1.jpg" alt="" />
+                                                    </div>
+                                                    <p class="reviews-talk">
+                                                        세라젬 biz는 우리 회사의 안정성을 크게 향상시켰습니다. 사용하기
+                                                        쉬운 인터페이스와 탁월한 고객 지원 덕분에 일상 업무가 훨씬 더
+                                                        효율적이 되었습니다.
+                                                    </p>
+                                                    <h4 class="user-name">오*영</h4>
+                                                </dd>
+                                            </dl>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
                 </div>
             </section>
             <section class="customer-service-center">
                 <div class="inner">
                     <h2>고객 센터 문의</h2>
                     <h3>TEL 02-565-4467</h3>
-                    <p>구매 및 휴게시설 컨설팅 서비스 문의 평일 09:00 ~ 18:00</p>
+                    <p class="customer-service-words">구매 및 휴게시설 컨설팅 서비스 문의 평일 09:00 ~ 18:00</p>
                     <button class="btn-customer-service">
-                        <p>문의하러 가기</p>
+                        <p class="service-words">문의하러 가기</p>
                     </button>
                 </div>
             </section>
@@ -186,5 +410,8 @@
                 </ul>
             </div>
         </footer>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script src="js/jquery-3.7.1.min.js"></script>
+        <script src="js/script.js"></script>
     </body>
 </html>

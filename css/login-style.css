@@ -1,0 +1,203 @@
+@charset "UTF-8";
+
+body {
+    width: 1920px;
+    height: 100%;
+}
+
+.inner {
+    width: 1720px;
+    margin: 0 auto;
+}
+
+#header {
+    height: 7.2rem;
+}
+
+#header nav {
+    width: 143rem;
+    height: 7.2rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-start;
+}
+
+.logo {
+    padding: 0 30px 0;
+}
+
+.logo a {
+    display: block;
+    width: 200px;
+    height: 35px;
+    background: url(../img/ceragem-logo.svg) no-repeat 0 0 / contain;
+}
+
+.gnb-product {
+    display: flex;
+}
+
+.gnb-product li a {
+    display: block;
+    padding: 3.3rem 2.4rem;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.gnb-for-user {
+    display: flex;
+}
+
+.gnb-for-user li a {
+    display: block;
+    padding: 3rem 3rem;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.gnb-for-user li a i {
+    font-size: 2rem;
+}
+
+/* header end */
+/* login start */
+.login {
+    height: auto;
+}
+
+.login-title {
+    padding: 100px 0 30px;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.login-wrap {
+    width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-box {
+    padding: 30px;
+    border: 1px solid var(--black30);
+    width: 600px;
+}
+
+.member-join {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.member-join-btn {
+    color: var(--ceragem-main-color);
+}
+
+.input-id,
+.input-pw {
+    margin-top: 15px;
+    width: 100%;
+    padding: 10px;
+    border-bottom: 1px solid var(--black30);
+    outline: none;
+}
+
+.login-btn {
+    width: 100%;
+    margin: 20px auto 0;
+    padding: 17px;
+    background-color: var(--ceragem-main-color);
+    border: 1px solid var(--ceragem-main-color);
+    color: var(--white90);
+    transition: 0.3s;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.login-btn:hover {
+    background-color: var(--white90);
+    color: var(--ceragem-main-color);
+}
+
+.login {
+    padding: 20px 0 100px;
+}
+
+.login-bottom-menu {
+    padding: 20px 0;
+    display: flex;
+    float: right;
+}
+
+.login-bottom-menu li {
+    padding: 0 10px;
+}
+
+.login-bottom-menu li+li {
+    content: '';
+    display: block;
+    border-left: 1px solid var(--black30);
+}
+
+/* login end */
+.customer-service-center .inner {
+    width: 1430px;
+    text-align: center;
+}
+
+.customer-service-center h2 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.customer-service-center h3 {
+    padding: 20px 0 0;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.customer-service-words {
+    padding: 20px 0 50px;
+    font-size: 18px;
+}
+
+.btn-customer-service {
+    padding: 15px 56px;
+    background-color: var(--ceragem-main-color);
+}
+
+.service-words {
+    color: var(--white90);
+}
+
+/* footer start */
+.f-logo img {
+    width: 200px;
+}
+
+.f-words {
+    width: 630px;
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 14px;
+    padding: 30px 0 0;
+}
+
+.f-sns {
+    display: flex;
+    float: right;
+}
+
+.f-sns li {
+    padding: 10px;
+}
+
+/* footer end */
