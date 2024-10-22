@@ -1,4 +1,4 @@
-@charset "UTF-8";
+@charset "utf-8";
 
 body {
     width: 1920px;
@@ -100,25 +100,25 @@ body {
 
 /* header end */
 
-/* relaxation start */
-.relaxation-device {
+/* main start */
+.rental-product {
     padding: 80px 0 50px;
 }
 
-.relaxation-device-title {
+.rental-product-title {
     font-size: 40px;
     font-weight: 700;
     padding: 100px 0 0;
     text-align: center;
 }
 
-.relaxation-device-explanation {
+.rental-product-explanation {
     font-size: 20px;
     padding: 20px 0 50px;
     text-align: center;
 }
 
-.relaxation-device-list {
+.rental-product-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -177,6 +177,29 @@ body {
     padding: 0 0 20px;
 }
 
+.evaluate {
+    font-size: 15px;
+}
+
+#loadMore {
+    width: 150px;
+    height: 45px;
+    background: var(--ceragem-main-color);
+    color: var(--white90);
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.button-container {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.invisible {
+    display: none;
+}
+
+/* main end */
 .customer-service-center .inner {
     width: 1430px;
     text-align: center;
@@ -207,6 +230,7 @@ body {
     color: var(--white90);
 }
 
+/* footer start */
 .f-logo img {
     width: 200px;
 }
@@ -231,3 +255,5 @@ body {
 .f-sns li {
     padding: 10px;
 }
+
+/* footer end */
