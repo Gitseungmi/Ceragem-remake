@@ -7,8 +7,9 @@
         <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
         <link rel="stylesheet" href="css/reset.css" />
         <link rel="stylesheet" href="css/common.css" />
-        <link rel="stylesheet" href="css/relaxation.css" />
+        <link rel="stylesheet" href="css/notice-board.css" />
         <link rel="shortcut icon" href="img/ico-shortcut.PNG" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
         <script src="js/jquery-3.7.1.min.js"></script>
     </head>
     <body>
@@ -41,62 +42,51 @@
                 </nav>
             </div>
         </header>
+
         <main id="main">
-            <section class="sub-visual">
-                <figure>
-                    <img src="img/sub-visual.png" alt="" />
-                </figure>
-            </section>
-            <section class="relaxation-device">
+            <section class="notice-board">
                 <div class="inner">
-                    <h2 class="relaxation-device-title">휴식가전</h2>
-                    <p class="relaxation-device-explanation">세라젬의 휴식가전을 모아뒀습니다</p>
-                    <ul class="relaxation-device-list">
-                        <li class="product">
-                            <figure><img src="img/product14.jpg" alt="" /></figure>
-                            <h3 class="product-name">파우제 M6 베이지</h3>
-                            <p class="product-price">3,800,000원</p>
-                            <dl>
-                                <dt><button class="purchase-button">구매하기</button></dt>
-                                <dd>
-                                    <p class="evaluate">평가: <i class="ri-star-fill"></i> 4.9</p>
-                                </dd>
-                            </dl>
-                        </li>
-                        <li class="product">
-                            <figure><img src="img/product15.jpg" alt="" /></figure>
-                            <h3 class="product-name">파우제 M6 브라운</h3>
-                            <p class="product-price">3,800,000원</p>
-                            <dl>
-                                <dt><button class="purchase-button">구매하기</button></dt>
-                                <dd>
-                                    <p class="evaluate">평가: <i class="ri-star-fill"></i> 4.9</p>
-                                </dd>
-                            </dl>
-                        </li>
-                        <li class="product">
-                            <figure><img src="img/product16.jpg" alt="" /></figure>
-                            <h3 class="product-name">파우제 M6 에스프레소</h3>
-                            <p class="product-price">3,800,000원</p>
-                            <dl>
-                                <dt><button class="purchase-button">구매하기</button></dt>
-                                <dd>
-                                    <p class="evaluate">평가: <i class="ri-star-fill"></i> 4.9</p>
-                                </dd>
-                            </dl>
-                        </li>
-                        <li class="product">
-                            <figure><img src="img/product17.jpg" alt="" /></figure>
-                            <h3 class="product-name">메디스파프로</h3>
-                            <p class="product-price">4,500,000원</p>
-                            <dl>
-                                <dt><button class="purchase-button">구매하기</button></dt>
-                                <dd>
-                                    <p class="evaluate">평가: <i class="ri-star-fill"></i> 4.9</p>
-                                </dd>
-                            </dl>
-                        </li>
-                    </ul>
+                    <h2 class="notice-board-title">게시판</h2>
+                    <div class="notice-board-search">
+                        <input class="input-search" type="text" placeholder="검색어를 입력해주세요." />
+                        <button class="btn-search">검색</button>
+                    </div>
+                    <table class="notice-board-list">
+                        <colgroup>
+                            <col style="width: 10%" />
+                            <col style="width: 20%" />
+                            <col style="width: auto" />
+                            <col style="width: 10%" />
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th>순번</th>
+                                <th>작성일</th>
+                                <th>제목</th>
+                                <th>구분</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>3</td>
+                                <td>2024.01.03</td>
+                                <td>나 박주성인데 여기 ㅈ같다</td>
+                                <td>사이트 문의</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>2024.01.02</td>
+                                <td>세라젬biz 사이트의 혜택이 알고 싶어요.</td>
+                                <td>사이트 문의</td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>2024.01.01</td>
+                                <td>저희 회사 휴게공간 컨설팅을 받아볼 수 있을까요?</td>
+                                <td>사이트 문의</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </section>
             <section class="customer-service-center">
