@@ -148,6 +148,10 @@ body {
     padding: 10px 20px;
 }
 
+.notice-board-list tbody tr td:first-child {
+    border-right: 1px solid var(--black20);
+}
+
 .notice-board-list th:first-child,
 .notice-board-list td:first-child {
     text-align: center;

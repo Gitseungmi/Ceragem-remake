@@ -122,6 +122,10 @@ body {
     position: relative;
 }
 
+.second-slider {
+    height: 650px;
+}
+
 .second-slider-wrap {
     width: 100%;
     position: relative;
@@ -261,7 +265,7 @@ body {
 
 /* reviews start */
 .reviews {
-    padding-bottom: 145px;
+    padding-bottom: 130px;
 }
 
 .reviews .inner {
@@ -291,13 +295,14 @@ body {
 .review-list {
     display: flex;
     justify-content: space-around;
-    height: 500px;
+    height: 300px;
 }
 
 .review-words dl {
     display: flex;
     justify-content: space-evenly;
     width: 100rem;
+    height: 600px;
 }
 
 .review-words dl dt {
@@ -336,6 +341,14 @@ body {
 
 .review-slider-wrap {
     padding: 80px 0 0;
+}
+
+.review-slider {
+    height: 500px;
+}
+
+.review-slider-wrap .swiper-slide {
+    height: 700px;
 }
 
 .review-slider-wrap .swiper-pagination-bullet {
