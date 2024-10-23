@@ -4,7 +4,7 @@ $(() => {
         direction: "horizontal",
         loop: true,
         autoplay: true,
-        speed: 10000, //기본:300
+        speed: 1000, //기본:300
         effect: "slide", //slide, fade,cube, flip, coverflow
 
         slidesPerView: 1, // 보여질 슬라이드 개수
@@ -28,7 +28,7 @@ $(() => {
     const secondSlider = new Swiper(".second-slider", {
         loop: true,
         autoplay: true,
-        speed: 7000,
+        speed: 700,
         pagination: {
             el: ".swiper-pagination",
             clickable: true,
@@ -44,7 +44,7 @@ $(() => {
         slidesPerView: "auto",
         loop: true,
         autoplay: true,
-        speed: 70030,
+        speed: 700,
         coverflowEffect: {
             rotate: 50,
             stretch: 0,
