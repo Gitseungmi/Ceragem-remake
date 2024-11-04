@@ -1,0 +1,261 @@
+@charset "UTF-8";
+
+body {
+    width: 1920px;
+    height: 100%;
+}
+
+.inner {
+    width: 1720px;
+    margin: 0 auto;
+}
+
+#header {
+    height: 6rem;
+}
+
+#header nav {
+    width: 143rem;
+    height: 6rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-start;
+}
+
+.logo {
+    padding: 0 30px 0;
+}
+
+.logo a {
+    display: block;
+    width: 200px;
+    height: 35px;
+    background: url(../img/ceragem-logo.svg) no-repeat 0 0 / contain;
+}
+
+.gnb-product {
+    display: flex;
+}
+
+.gnb-product li a {
+    display: block;
+    padding: 3.3rem 2.4rem;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.gnb-for-user {
+    display: flex;
+}
+
+.gnb-for-user li a {
+    display: block;
+    padding: 3rem 3rem;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.gnb-for-user li a i {
+    font-size: 2rem;
+}
+
+.gnb-for-user li+li>.business-sub-list>ul {
+    position: absolute;
+    top: 90px;
+    left: 66%;
+    transform: translateX(-50%);
+    width: 150px;
+    background: #fff;
+    text-align: center;
+    border: 1px solid var(--black30);
+    box-shadow: 0px 4px 4px -4px rgba(128, 128, 121, 0.2);
+    z-index: 100;
+    display: none;
+}
+
+.gnb-for-user li+li>.business-sub-list>ul li a {
+    padding: 1.5rem 0;
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
+.gnb-for-user li+li>.business-sub-list>ul li:first-child {
+    border-bottom: 1px solid var(--black30);
+}
+
+.gnb-for-user li+li:hover .business-sub-list ul {
+    color: var(--black70);
+    display: block;
+}
+
+.gnb-product li:hover {
+    color: var(--ceragem-main-color);
+}
+
+.gnb-for-user li:hover {
+    color: var(--ceragem-main-color);
+}
+
+/* header end */
+
+/* example start */
+.business-example-visual {
+    padding: 100px 0 60px;
+}
+
+.business-example-title {
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.example-container {
+    position: relative;
+    text-align: center;
+}
+
+.example-container img {
+    width: 1720px;
+    height: 800px;
+}
+
+.example-introduce {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 800px;
+    background-color: var(--black70);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 0.3s;
+    color: var(--white90);
+    font-size: 18px;
+    text-align: center;
+    padding: 20px;
+}
+
+.example-container:hover .example-introduce {
+    opacity: 1;
+}
+
+.example-container h3 {
+    font-weight: 700;
+    font-size: 50px;
+    padding: 0 0 20px;
+}
+
+.example-container h4 {
+    font-weight: 700;
+    font-size: 30px;
+    padding: 0 0 20px;
+}
+
+/* swiper s */
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper-slide {
+    background-size: cover;
+    background-position: center;
+}
+
+
+.business-top-slider {
+    height: 800px;
+}
+
+.business-top-slider-wrap .business-example-slider {
+    height: 800px;
+}
+
+.business-top-slider-wrap {
+    width: 100%;
+}
+
+.business-bottom-slider-wrap {
+    height: 20%;
+    box-sizing: border-box;
+    padding: 10px 0;
+}
+
+.business-bottom-slider-wrap .swiper-slide {
+    width: 20%;
+    height: 200px;
+    opacity: 0.4;
+}
+
+.business-bottom-slider-wrap .swiper-slide-thumb-active {
+    opacity: 1;
+}
+
+/* example end */
+.customer-service-center .inner {
+    width: 1430px;
+    text-align: center;
+}
+
+.customer-service-center h2 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.customer-service-center h3 {
+    padding: 20px 0 0;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.customer-service-words {
+    padding: 20px 0 50px;
+    font-size: 18px;
+}
+
+.btn-customer-service {
+    padding: 15px 56px;
+    background-color: var(--ceragem-main-color);
+}
+
+.service-words {
+    color: var(--white90);
+}
+
+.f-logo img {
+    width: 200px;
+}
+
+.f-words {
+    width: 630px;
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 14px;
+    padding: 30px 0 0;
+}
+
+.f-sns {
+    display: flex;
+    float: right;
+}
+
+.f-sns li {
+    padding: 10px;
+}

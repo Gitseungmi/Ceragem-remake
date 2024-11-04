@@ -61,4 +61,23 @@ $(() => {
         //     prevEl: ".swiper-button-prev",
         // },
     });
+
+    const businessBottomSlider = new Swiper(".business-bottom-slider", {
+        loop: true,
+        spaceBetween: 10,
+        slidesPerView: 4,
+        freeMode: true,
+        watchSlidesProgress: true,
+    });
+    const businessTopSlider = new Swiper(".business-top-slider", {
+        loop: true,
+        spaceBetween: 10,
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+        thumbs: {
+            swiper: ".business-bottom-slider",
+        },
+    });
 });
