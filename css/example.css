@@ -204,6 +204,16 @@ body {
     opacity: 1;
 }
 
+.business-top-slider-wrap .swiper-button-next {
+    display: block;
+    text-align: center;
+    color: var(--white90);
+}
+
+.business-top-slider-wrap .swiper-button-next:hover {
+    color: var(--ceragem-main-color);
+}
+
 /* example end */
 .customer-service-center .inner {
     width: 1430px;
