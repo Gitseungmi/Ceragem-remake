@@ -210,7 +210,17 @@ body {
     color: var(--white90);
 }
 
-.business-top-slider-wrap .swiper-button-next:hover {
+.business-top-slider-wrap:hover .swiper-button-next {
+    color: var(--ceragem-main-color);
+}
+
+.business-top-slider-wrap .swiper-button-prev {
+    display: block;
+    text-align: center;
+    color: var(--white90);
+}
+
+.business-top-slider-wrap:hover .swiper-button-prev {
     color: var(--ceragem-main-color);
 }
 
