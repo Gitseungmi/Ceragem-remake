@@ -286,6 +286,10 @@ body.no-scroll {
 
 /* customer end */
 /* footer start */
+#footer {
+    width: 100%;
+}
+
 .f-logo img {
     width: 200px;
     /* width: 15.41666666666667%; */
@@ -360,6 +364,10 @@ body.no-scroll {
 
     .f-words {
         font-size: 13px;
+    }
+
+    .f-sns li {
+        padding: 5px;
     }
 }
 
