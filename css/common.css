@@ -167,6 +167,70 @@ a:hover {
     display: block;
 }
 
+
+.util {
+    position: relative;
+    padding: 20px;
+    text-align: right;
+    display: none;
+    /* 기본적으로 숨김 */
+}
+
+.hamburger {
+    text-decoration: none;
+    color: #333;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.side-menu {
+    position: fixed;
+    top: 0;
+    right: -250px;
+    width: 250px;
+    height: 100vh;
+    background-color: #333;
+    transition: right 0.3s ease;
+    z-index: 1000;
+}
+
+.side-menu.active {
+    right: 0;
+}
+
+.menu-list {
+    padding: 20px;
+    list-style: none;
+}
+
+.menu-list li {
+    margin-bottom: 15px;
+}
+
+.menu-list a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.menu-list a:hover {
+    color: #ddd;
+}
+
+.close-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.close-btn:hover {
+    color: #ddd;
+}
+
 /* header end */
 
 /* customer start */
@@ -203,11 +267,13 @@ a:hover {
 /* customer end */
 /* footer start */
 .f-logo img {
-    width: 200px;
+    /* width: 200px; */
+    width: 15.41666666666667%;
 }
 
 .f-words {
-    width: 630px;
+    /* width: 630px; */
+    width: 38.62790697674419%;
     font-size: 17px;
     line-height: 1.5;
 }
@@ -230,9 +296,6 @@ a:hover {
 /* footer end */
 
 @media (max-width: 1180px) {
-    #header {
-        position: sticky;
-    }
 
     .inner {
         width: 89.5833%;
@@ -274,10 +337,67 @@ a:hover {
     .gnb-for-user li+li>.business-sub-list>ul li a {
         font-size: 17px;
     }
+
+    .f-words {
+        font-size: 11px;
+    }
 }
 
 @media (max-width: 1024px) {}
 
-@media (max-width: 800px) {}
+@media (max-width: 800px) {
+    #header {
+        height: 70px;
+    }
 
-@media (max-width: 500px) {}
+    #header nav {
+        display: flex;
+        justify-content: space-between;
+        height: 70px;
+    }
+
+    .util {
+        display: block;
+        text-align: right;
+    }
+
+    /* 필요한 경우 모바일에 특화된 추가 스타일 */
+    .gnb-product {
+        display: none;
+    }
+
+    .gnb-for-user {
+        display: none;
+    }
+}
+
+@media (max-width: 500px) {
+    .util {
+        display: block;
+    }
+
+    #header {
+        height: 70px;
+    }
+
+    #header nav {
+        display: flex;
+        justify-content: space-between;
+        height: 70px;
+    }
+
+    /* 필요한 경우 모바일에 특화된 추가 스타일 */
+    .side-menu {
+        width: 200px;
+        /* 모바일에서는 메뉴 폭을 좀 더 좁게 */
+        right: -200px;
+    }
+
+    .gnb-product {
+        display: none;
+    }
+
+    .gnb-for-user {
+        display: none;
+    }
+}

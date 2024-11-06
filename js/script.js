@@ -81,3 +81,31 @@ $(() => {
         },
     });
 });
+
+$(document).ready(function () {
+    // 햄버거 메뉴 클릭
+    $(".hamburger").on("click", function (e) {
+        e.preventDefault();
+        $(".side-menu").addClass("active");
+    });
+
+    // 닫기 버튼 클릭
+    $(".close-btn").on("click", function (e) {
+        e.preventDefault();
+        $(".side-menu").removeClass("active");
+    });
+
+    // 반응형 처리
+    $(window).on("resize", function () {
+        var windowWidth = $(window).width();
+        if (windowWidth > 800) {
+            $(".util").hide();
+            $(".side-menu").removeClass("active");
+        } else {
+            $(".util").show();
+        }
+    });
+
+    // 초기 로드 시 화면 크기 체크
+    $(window).trigger("resize");
+});
