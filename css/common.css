@@ -94,9 +94,8 @@ body.no-scroll {
     width: 100%;
     height: 90px;
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     align-items: center;
-    align-content: center;
     justify-content: center;
 }
 
@@ -362,18 +361,7 @@ body.no-scroll {
 
 @media (max-width: 1024px) {}
 
-@media (max-width: 800px) {
-
-    #header {
-        height: 70px;
-    }
-
-    #header nav {
-        display: flex;
-        justify-content: space-between;
-        height: 70px;
-    }
-
+@media (max-width: 1760px) {
     .util {
         display: block;
         text-align: right;
@@ -387,21 +375,11 @@ body.no-scroll {
     .gnb-for-user {
         display: none;
     }
-}
-
-@media (max-width: 500px) {
-    .util {
-        display: block;
-    }
-
-    #header {
-        height: 70px;
-    }
 
     #header nav {
         display: flex;
         justify-content: space-between;
-        height: 70px;
+        /* height: 70px; */
     }
 
     /* 필요한 경우 모바일에 특화된 추가 스타일 */

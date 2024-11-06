@@ -29,7 +29,7 @@ $(document).ready(function () {
     // 반응형 처리
     $(window).on("resize", function () {
         var windowWidth = $(window).width();
-        if (windowWidth > 800) {
+        if (windowWidth > 1760) {
             $(".util").hide();
             $(".side-menu, .overlay").removeClass("active");
             $("body").removeClass("no-scroll");
