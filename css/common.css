@@ -187,7 +187,6 @@ body.no-scroll {
 .util {
     position: relative;
     padding: 20px;
-    text-align: right;
     display: none;
     /* 기본적으로 숨김 */
 }
@@ -205,7 +204,7 @@ body.no-scroll {
     right: -250px;
     width: 250px;
     height: 100vh;
-    background-color: #333;
+    background-color: var(--ceragem-main-color);
     transition: right 0.3s ease;
     z-index: 1000;
 }
@@ -390,7 +389,7 @@ body.no-scroll {
 
     #header nav {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-evenly;
         /* height: 70px; */
     }
 
