@@ -192,10 +192,6 @@ body {
     padding-bottom: 130px;
 }
 
-.reviews .inner {
-    /* width: 1470px; */
-}
-
 .review-logo {
     font-size: 40px;
     text-align: center;
@@ -241,11 +237,6 @@ body {
     justify-content: center;
 }
 
-.review-words dl dd {
-    /* width: 750px; */
-    /* height: 310px; */
-}
-
 .reviews-talk {
     padding: 4rem 0 2rem;
     font-size: 20px;
@@ -278,9 +269,6 @@ body {
     overflow: hidden;
 }
 
-.review-slider {
-    /* height: 500px; */
-}
 
 .review-slider-wrap .swiper-slide {
     /* height: 700px; */
