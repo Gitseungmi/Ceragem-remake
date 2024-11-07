@@ -36,11 +36,11 @@
 
 
 body {
+    min-width: 400px;
     margin: 0 auto;
     padding: 0;
     position: relative;
     height: 100%;
-    width: 100vw;
 }
 
 a {
@@ -92,7 +92,7 @@ body .no-scroll {
 }
 
 #header nav {
-    width: 89.5833%;
+    width: 100%;
     height: 90px;
     display: flex;
     /* flex-wrap: wrap; */
@@ -332,6 +332,7 @@ body .no-scroll {
 }
 
 .f-sns {
+    padding-top: 20px;
     display: flex;
     float: right;
 }
@@ -421,7 +422,7 @@ body .no-scroll {
 
     #header nav {
         display: flex;
-        justify-content: space-evenly;
+        justify-content: center;
     }
 
     /* 필요한 경우 모바일에 특화된 추가 스타일 */
