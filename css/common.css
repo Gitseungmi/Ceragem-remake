@@ -422,7 +422,7 @@ body .no-scroll {
 
     #header nav {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
     }
 
     /* 필요한 경우 모바일에 특화된 추가 스타일 */
