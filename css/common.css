@@ -91,7 +91,7 @@ body .no-scroll {
 }
 
 #header nav {
-    width: 100%;
+    width: 89.5833%;
     height: 90px;
     display: flex;
     /* flex-wrap: wrap; */
@@ -347,10 +347,6 @@ body .no-scroll {
         width: 89.5833%;
     }
 
-    #header nav {
-        width: 89.5833%;
-    }
-
     .gnb-for-user li a i {
         margin-right: 0;
     }
@@ -425,7 +421,6 @@ body .no-scroll {
     #header nav {
         display: flex;
         justify-content: space-evenly;
-        /* height: 70px; */
     }
 
     /* 필요한 경우 모바일에 특화된 추가 스타일 */
