@@ -61,7 +61,7 @@ a:hover {
 }
 
 /* header start */
-body.no-scroll {
+body .no-scroll {
     overflow: hidden;
     position: fixed;
     width: 100%;
