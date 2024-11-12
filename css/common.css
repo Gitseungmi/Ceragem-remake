@@ -75,7 +75,6 @@ body .no-scroll {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
     z-index: 999;
     display: none;
 }
@@ -213,16 +212,6 @@ body .no-scroll {
     /* 메뉴가 길어질 경우 스크롤 가능하도록 */
 }
 
-.overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    z-index: 999;
-    display: none;
-}
 
 .overlay .active {
     display: block;
