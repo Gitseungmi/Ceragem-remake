@@ -224,7 +224,7 @@ body .no-scroll {
     display: none;
 }
 
-.overlay.active {
+.overlay .active {
     display: block;
 }
 
